@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pingdiff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ping URLs and diff query parts with stable normalization.",
+  "bin": {
+    "pingdiff": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pingdiff.git"
+  },
+  "homepage": "https://theworker02.github.io/pingdiff/",
+  "keywords": [
+    "ping",
+    "diff",
+    "url",
+    "cli",
+    "toolkit"
+  ]
+}
